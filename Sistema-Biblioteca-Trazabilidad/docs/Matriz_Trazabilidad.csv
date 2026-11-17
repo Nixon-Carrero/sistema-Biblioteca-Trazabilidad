@@ -3,3 +3,5 @@ ID_Requisito,Version,Caso_de_Uso,Clases,Caso_de_Prueba,Estado
 REQ-BIB-001,v1.0,CU-BIB-001,"CLS-DOM-Prestamo, CLS-SRV-PrestamoService",TST-INT-001,PASS
 
 REQ-BIB-002,v1.0,CU-BIB-002,"CLS-DOM-Prestamo, CLS-SRV-PrestamoService",TST-INT-002,PASS
+
+REQ-BIB-003,v1.1,CU-BIB-003,"CLS-DOM-Prestamo, CLS-SRV-PrestamoService",TST-INT-003,PASS
