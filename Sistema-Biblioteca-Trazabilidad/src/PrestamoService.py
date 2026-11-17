@@ -8,6 +8,8 @@ class Prestamo:
 
     self.activo = activo
 
+    self.renovaciones = 0
+
 
 
 class PrestamoService:
@@ -23,3 +25,15 @@ class PrestamoService:
     prestamo.activo = False
 
     return prestamo
+
+
+
+  def renovar_prestamo(self, prestamo):
+
+    if prestamo.activo and prestamo.renovaciones < 1:
+
+      prestamo.renovaciones += 1
+
+      return True
+
+    return False

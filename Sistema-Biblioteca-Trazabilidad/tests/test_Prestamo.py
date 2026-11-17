@@ -21,3 +21,15 @@ def test_tst_int_002_devolucion():
   srv.registrar_devolucion(p)
 
   assert p.activo is False
+
+
+
+def test_tst_int_003_renovacion():
+
+  srv = PrestamoService()
+
+  p = srv.registrar_prestamo(1, "Ingeniería de Software")
+
+  assert srv.renovar_prestamo(p) is True
+
+  assert srv.renovar_prestamo(p) is False
